@@ -1,0 +1,2 @@
+https://just114.justhost.com:2083/3rdparty/phpMyAdmin
+ftp login details
