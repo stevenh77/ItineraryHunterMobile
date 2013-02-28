@@ -10,7 +10,7 @@ function displayItineraries(data) {
 		
 	    console.log(itinerary);
 	    $('#itineraryList').append('<li><a href="itinerary.html?id=' + itinerary.id + '">' +
-					'<img src="pics/' + itinerary.picture + '"/>' +
+          '<img src="http://stevenhollidge.com/blog-source-code/itineraryhuntermobile/services/pics/' + itinerary.picture + '"/>' +
 					'<h4>' + itinerary.title + '</h4>' +
 					'<p>' + itinerary.description + '</p></a></li>');
 			});

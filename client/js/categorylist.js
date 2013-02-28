@@ -12,7 +12,7 @@ function displayCategoryList() {
 		var categories = data.items;
 		$.each(categories, function(index, category) {
 			$('#categoryList').append('<li><a href="itinerarylist.html?id=' + category.id + '">' +
-					'<img src="pics/' + category.picture + '"/>' +
+					'<img src="http://stevenhollidge.com/blog-source-code/itineraryhuntermobile/services/pics/' + category.picture + '"/>' +
 					'<h4>' + category.title + '</h4>' +
 					'<p>' + category.description + '</p>' +
 					'<span class="ui-li-count">' + category.itineraryCount + '</span></a></li>');
